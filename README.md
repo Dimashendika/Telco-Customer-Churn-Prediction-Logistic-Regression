@@ -28,20 +28,15 @@ This project uses **Logistic Regression** to predict customer churn for a teleco
 
 ##  Model Performance
 - **Accuracy**: 80%
-- **ROC-AUC Score**: 0.84  
+- **ROC-AUC Score**: 0.83  
 This indicates reliable performance and good separation between churn and non-churn classes.
 
-##  Key Insights
+###  Key Takeaways:
+- **Tenure**, **long-term contracts**, and **value-added services** (like Online Security and Tech Support) significantly **reduce churn**.
+- **Fiber optic internet** and **streaming services** are associated with **higher churn**, possibly due to pricing or service quality expectations.
+- **MonthlyCharges**, although counterintuitive, appeared as a churn-reducing factor — suggesting that **premium customers may be more loyal**, highlighting the need for **customer segmentation**.
 
--  **Tenure** is the most influential factor — customers who stay longer are far less likely to churn.
--  **Higher Monthly Charges** surprisingly correlate with **lower churn**, possibly due to bundled premium services.
--  **Two-year contracts**, **online security**, and **tech support** services significantly **reduce churn**.
--  Customers using **fiber optic internet**, **electronic checks**, or **streaming services** are more likely to churn.
-
-##  Business Recommendations
-
-1. **Engage new customers early** with onboarding and targeted offers.
-2. **Promote longer-term contracts** through incentives (e.g., loyalty rewards, discounts).
-3. **Improve experience** with high-risk services like streaming and fiber internet.
-4. **Encourage stable billing options** over electronic check methods.
-5. **Upsell value-added features** such as tech support and online security to at-risk users.
+###  Business Implications:
+- Focus retention strategies on **new customers**, promoting **long-term contracts** and **added-value services** early.
+- Review and improve the **experience of fiber optic customers** — especially those using streaming services.
+- Identify and reward **high-value customers** through **personalized loyalty programs** to maintain engagement.
